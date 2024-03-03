@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburgueria Delícia</title>
+    <style>
+        /* Adicione seus estilos CSS aqui */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <strong> <h1>Hamburgueria Delícia</h1>
+        <strong<p>Os melhores hambúrgueres da cidade!</p></strong>
+
+    </header>
+
+    <section>
+        <h2>Cardápio</h2>
+        <p>Selecione seus hambúrgueres favoritos:</p>
+
+        <ul>
+            <li>Hambúrguer Clássico - R$ 10,00</li>
+            <li>Hambúrguer Vegetariano - R$ 12,00</li>
+            <li>Hambúrguer Duplo com Queijo - R$ 15,00</li>
+            <li>Hambúrguer Duplo com Queijo e Bacon-R$ 20,00</li>
+        </ul>
+
+        <h2> Faça seu pedido</h2>
+        <form action="processar_pedido.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="endereco">Endereço de entrega:</label>
+            <input type="text" id="endereco" name="endereco" required>
+
+            <label for="hamburguer">Escolha o hambúrguer:</label>
+            <select id="hamburguer" name="hamburguer">
+                <option value="classico">Hambúrguer Clássico</option>
+                <option value="vegetariano">Hambúrguer Vegetariano</option>
+                <option value="duplo">Hambúrguer Duplo com Queijo</option>
+            </select>
+
+            <input type="submit" value="Enviar Pedido">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Hamburgueria Delícia - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>

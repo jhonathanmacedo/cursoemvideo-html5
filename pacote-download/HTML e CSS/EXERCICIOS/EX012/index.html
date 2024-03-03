@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo Videos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+
+    <!--video src="midia/meu-video.mp4"  width="500" controls /video> Para adicionarmos a largura do video usamos a tag <WIDTH/>-->
+    <!--Assim então colocamos todos os formatos dentro do SORCE SRC-->
+    <video width="560" poster="imagens/limoes-capa.png" controls autoplay loop>
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.m4v" type="video/m4v">
+        <source src="midia/meu-video.webm" type="video/webm">
+        <source src="midia/meu-video.ogv" type="video/ogv">
+        <p>Seu navegador não tem compatibilidade com reprodução de videos.
+            <!--Podemos mostra qual imagem queremos usando a tag POSTER e depois CTRL + ESPAÇO-->
+            <!--Em uma tag video também é importante colocar outras TAG como
+            CONTROLS, AUTOPLAY, LOOP-->
+
+        </p>
+
+
+    </video>
+
+    <h1>Inserindo videos do YouTube</h1>
+    <!--Basta apenas copiar o incorporar o código-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LW0bhKitRBk?si=YGdbHMm-yE8Fcj_J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <!--Aqui ele não consome dados-->
+
+    <h1>Inserindo videos do Vimeo</h1>
+
+    <iframe src="https://player.vimeo.com/video/912962077?h=0b6e904d6d&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+
+
+    
+
+
+
+
+    
+</body>
+</html>

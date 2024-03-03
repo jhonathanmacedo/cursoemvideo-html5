@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <!--Listas ordenadas: A ordem faz diferença.-->
+    <!--Podemos usar o <OL> (ordem list)-->
+    <!--E cada item da lista e o list item ou <LI> -->
+    <!--Dentro de <OL> podemos mudar o estilo de numeros ou algoritimos basta usar o <TYPE> dentro de OL-->
+
+    <ol type="i" start="1" > <!--Type e start(para iniciar em um numero mais a frente) pode ser usado dentro de <OL>-->
+
+        <li>Acorda</li>
+        <li>Ligar para o joão</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para faculdade</li>
+        <li>Almonçar</li>
+        <li>Ir para o trabalho</li>
+        <li>Voltar para casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+
+ <!--O </li> no HTML5 se tornou opcional-->
+
+ <h2>Listas não ordenadas</h2>
+ <!--Sequência não faz sentido-->
+ <!--Usamos o <UL> para esse tipo de lista-->
+ <!--Assim como no ol usamos o LI para listar os itens e TYPE para personalizar a forma-->   
+
+ <ul type="Circle"> <!--Tipo de type="Disk, Circle, Square"-->
+
+    <li>Pão</li>
+    <li>Leite</li>
+    <li>Tomate</li>
+    <li>Alface</li>
+    <li>Manteiga</li>
+    <li>Arroz</li>
+    <li>Feijão</li>
+
+ </ul>
+
+
+
+        
+    </ol>
+
+    <h2>Minhas linguagens favoritas</h2> 
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol  type="a">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+        <!--Podemos usar a sequência dentro do TYPE isso sendo que termos que colocar a sequência em números-->
+    </ol>
+    <h2>Meus Jogos favoritos</h2>
+    
+    <ol>
+        <li>NES</li>
+        <ul type="Square">
+            <li>Mario Bros</li>
+
+            <ul type="Circle">
+                <li>Mario Bros 3</li>
+                <li>Mario: Lost levels </li>
+            </ul>
+
+            <li>Ninja Garden</li>
+        </ul>
+
+        <li>SNES</li>
+        <ul type="Square">
+            <li>Mario</li>
+            <li>Dinkey Gong</li>
+        </ul>
+
+      
+        <li>Playstation</li>
+        <ul type="Square">
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul>
+       
+    </ol>
+
+    <h2>Lista de definição</h2>
+    <!--Comparado ao dicionário, usa o termo e sua definição.-->
+
+    <!--Usando a tag DL para abrir a tag depois usamos o <dt> para dizer qual o termo e assim o <dd> para dizer sua definição-->
+
+    <dl>
+        <dt>HTML</dt> 
+        <dd><li>Linguagem de marcação para a criação de um site</dd>
+
+        <dt>CSS</dt>
+        <dd><li>Linguagem de marcação para criação do Desing de um site</dd>
+
+        <dt>JavaScript</dt>
+        <dd><li>Linguagem de programação para a criação de interratividade de um site</dd>
+
+    </dl>
+</body>
+</html>
