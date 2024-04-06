@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgba(70, 69, 69, 0.89);
+            padding: 3px; }
+            nav > a {
+                text-decoration:none ;
+                color: white;
+                font-weight: bold;
+                margin-right: 30px;
+            }
+            nav > a:hover{
+                text-decoration:underline ;
+                
+            }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: lightslategray;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgba(211, 211, 211, 0.699);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+
+</head>
+<body>
+    <header> 
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politica Tecnologia</p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias Sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quia, veritatis quidem labore impedit cum ipsum voluptate dolore. Non, at animi? Unde aut praesentium et vel ex, qui quas quasi!</p>
+                <aside>
+                    <p>Artigo escrito por José Da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Jhonathan</p>
+    </footer>
+</body>
+</html>
